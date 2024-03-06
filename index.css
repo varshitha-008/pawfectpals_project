@@ -1,0 +1,33 @@
+.container-fluid{
+    background-color:#2e3538 ;
+    width:98%;
+    margin: auto;
+    height: 12vh;
+    
+}
+
+.nav-link{
+    color:#c5703b;
+}
+.navbar-nav{
+    margin-left: 30%;
+}
+/* for logo */
+
+#main_logo{
+    width:100px;
+    height: 60px;
+    /* background-color: red; */
+    border: solid;
+    background-image: url("./images/main_logo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+@media(max-width:760px){
+    .container-fluid{
+        height: 50vh;
+
+    } 
+}
+
