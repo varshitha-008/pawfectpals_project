@@ -23,6 +23,80 @@
     background-position: center;
     background-size: cover;
 }
+#seach_container{
+
+    width:100%;
+    margin:auto;
+    height: 80vh;
+    background-image: url("./images/seachcontainer_img.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#select_container{
+    width:60%;
+    margin: auto;
+    height: 60vh;
+    margin-top: 50px;
+    display: flex;
+    background-color: #a0a5df;
+    border-radius: 24px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#select_container>div:nth-of-type(1){
+    box-sizing: border-box;
+    width:30%;
+    height: 80%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    animation: select_dog_anim 10s;
+    background-color: aliceblue;
+   
+}
+#select_container>div:nth-of-type(2){
+    width:30%;
+    height: 80%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    animation: select_cat_anim 10s;
+    background-color: aliceblue;
+}
+#select_container>div>a>img{
+    height: 80%;
+    width: 100%;
+
+}
+#select_container>div>h3{
+    text-align: center;
+    color: #ebc73b;
+    margin-top: 10px;
+    
+}
+
+
+@keyframes select_dog_anim{
+    0%{
+
+    }
+    50%{
+        transform: translateX(30%);
+    }
+   
+
+}
+@keyframes select_cat_anim{
+    0%{
+
+    }
+    50%{
+        transform: translateX(-30%);
+    }
+   
+
+}
+
+
+
+
 
 @media(max-width:760px){
     .container-fluid{
